@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-CakeShop-3c98dd68-f5ac-4e50-99e7-97e581ba3c98</UserSecretsId>
+    <UserSecretsId>aspnet-CakeShop-edc81920-9d9d-4e69-b4a5-2691fd53e699</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +15,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.x" />
   </ItemGroup>
 
 </Project>
